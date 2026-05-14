@@ -46,9 +46,20 @@ menuItem: {
   justifyContent: 'center',
   width: '50%',
 },
+
 itemHistorico: {
-  color: '#ffffff'
+  width: 200,
+  padding: 10,
+  marginLeft: 10,
+  backgroundColor: '#94648c',
+  borderRadius: 8,
+  margin: 8,
+  
 },
+HText: { 
+  color: '#ffffff',
+},
+
   title: {
     height: 100,
     paddingTop: 40,
@@ -60,6 +71,12 @@ itemHistorico: {
     textAlign: 'center',
     fontSize: 35,
     fontWeight: 'bold',
+
+  },
+  titleText:{
+    color: '#000000',
+    fontSize: 28,
+    margin: 12,
 
   },
   menuTexto: {
@@ -100,7 +117,7 @@ linhaAtiva: {
   },
   result: {
     margin: 12,
-    fontSize: 28,
+    fontSize: 16,
     color: '#000'
   },
   button: {
@@ -130,7 +147,7 @@ buttonclearH: {
     borderRadius: 8,
     alignItems: 'center',
     marginBottom: 30,
-    marginLeft: 20,
+    marginLeft: 10,
 },
 
 buttonText: {

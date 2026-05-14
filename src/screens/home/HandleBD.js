@@ -1,8 +1,20 @@
+/*
+  "sexo": "F",
+    "imc": "Abaixo do peso",
+    "gordura": "normal",
+    "status": "Abaixo do peso, mas saudável",
+    "descricao": "Seu percentual de gordura está adequado apesar do baixo peso.",
+    "recomendacoes": [
+      "Ganhar massa muscular",
+      "Manter alimentação saudável"
+
+*/
+
 import * as FileSystem from 'expo-file-system/legacy';
-import * as FileSystem from 'expo-file-system/legacy';
+import BaseDados from '../home/Basedados.json';
 
 const caminho = FileSystem.documentDirectory + 'BD.json';
-const caminhoBase = FileSystem.documentDirectory + 'Basedados.json';
+
 
 export async function salvarBanco(genero, imc, status) {
 
@@ -107,37 +119,48 @@ export async function lerBanco() {
     return [];
   }
 }
-
-export async function LoadResult() {
-
+export function lerBase() {
   try {
-
-    const info =
-      await FileSystem.getInfoAsync(caminhoBase);
-
-    // se não existir retorna vazio
-    if (!info.exists) {
-      return [];
-    }
-
-    const conteudo =
-      await FileSystem.readAsStringAsync(caminhoBase);
-
-    // evita erro em json vazio
-    if (conteudo.trim() === '') {
-      return [];
-    }
-
-    const banco = JSON.parse(conteudoBase);
-
-    return banco.Log;
-
+    return BaseDados;
   } catch (erro) {
-
     console.log('ERRO AO LER');
     console.log(erro);
-
     return [];
   }
 }
 
+export function Search_Base(sexo, imc, gordura) {
+
+  let resultMain = {};
+
+  BaseDados.analise.forEach(function(base) {
+
+    if (
+      String(sexo).trim().toLowerCase() === String(base.sexo).trim().toLowerCase() &&
+      String(imc).trim().toLowerCase() === String(base.imc).trim().toLowerCase() &&
+      String(gordura).trim().toLowerCase() === String(base.gordura).trim().toLowerCase()
+    ) {
+      resultMain = {base};
+    }
+
+  });
+
+  return resultMain;
+}
+
+export function HandleData(list){
+
+  let status
+  let descricao
+  let recomendacoes = []
+  let json = {}
+
+  status = list.base.status
+  descricao = list.base.descricao
+  recomendacoes = list.base.recomendacoes
+  json = {status,descricao,recomendacoes}
+
+
+  return json
+  
+}

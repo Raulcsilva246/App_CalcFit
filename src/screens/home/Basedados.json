@@ -2,7 +2,7 @@
 "analise": [
    {
     "sexo": "M",
-    "imc": "abaixo_peso",
+    "imc": "Abaixo do peso",
     "gordura": "baixa",
     "status": "Abaixo do peso e baixa gordura corporal",
     "descricao": "Seu peso e percentual de gordura estão abaixo do recomendado.",
@@ -14,7 +14,7 @@
   },
   {
     "sexo": "M",
-    "imc": "abaixo_peso",
+    "imc": "Abaixo do peso",
     "gordura": "normal",
     "status": "Abaixo do peso, mas saudável",
     "descricao": "Mesmo abaixo do peso ideal, seu percentual de gordura está equilibrado.",
@@ -26,7 +26,7 @@
   },
   {
     "sexo": "M",
-    "imc": "abaixo_peso",
+    "imc": "Abaixo do peso",
     "gordura": "alta",
     "status": "Baixo peso com gordura elevada",
     "descricao": "Você pode ter pouca massa muscular e acúmulo de gordura.",
@@ -39,7 +39,7 @@
 
   {
     "sexo": "M",
-    "imc": "normal",
+    "imc": "Peso normal",
     "gordura": "baixa",
     "status": "Peso normal e baixo percentual de gordura",
     "descricao": "Seu corpo apresenta baixo percentual de gordura e peso saudável.",
@@ -50,7 +50,7 @@
   },
   {
     "sexo": "M",
-    "imc": "normal",
+    "imc": "Peso normal",
     "gordura": "normal",
     "status": "Saudável",
     "descricao": "Seu IMC e percentual de gordura estão dentro da faixa ideal.",
@@ -61,7 +61,7 @@
   },
   {
     "sexo": "M",
-    "imc": "normal",
+    "imc": "Peso normal",
     "gordura": "alta",
     "status": "Peso normal com gordura elevada",
     "descricao": "Mesmo com peso normal, seu percentual de gordura está acima do ideal.",
@@ -74,7 +74,7 @@
 
   {
     "sexo": "M",
-    "imc": "sobrepeso",
+    "imc": "Sobrepeso",
     "gordura": "baixa",
     "status": "Sobrepeso, mas saudável",
     "descricao": "Seu IMC está acima do ideal, porém seu percentual de gordura é baixo.",
@@ -86,7 +86,7 @@
   },
   {
     "sexo": "M",
-    "imc": "sobrepeso",
+    "imc": "Sobrepeso",
     "gordura": "normal",
     "status": "Sobrepeso moderado",
     "descricao": "Seu peso está acima do recomendado.",
@@ -98,7 +98,7 @@
   },
   {
     "sexo": "M",
-    "imc": "sobrepeso",
+    "imc": "Sobrepeso",
     "gordura": "alta",
     "status": "Sobrepeso com gordura elevada",
     "descricao": "Seu IMC e percentual de gordura estão acima do ideal.",
@@ -111,7 +111,7 @@
 
   {
     "sexo": "M",
-    "imc": "obesidade",
+    "imc": "Obesidade",
     "gordura": "baixa",
     "status": "IMC muito elevado com baixa gordura",
     "descricao": "Seu IMC está muito acima do ideal, mas o percentual de gordura é baixo.",
@@ -122,7 +122,7 @@
   },
   {
     "sexo": "M",
-    "imc": "obesidade",
+    "imc": "Obesidade",
     "gordura": "normal",
     "status": "IMC elevado",
     "descricao": "Seu IMC está na faixa de obesidade.",
@@ -134,7 +134,7 @@
   },
   {
     "sexo": "M",
-    "imc": "obesidade",
+    "imc": "Obesidade",
     "gordura": "alta",
     "status": "Obesidade",
     "descricao": "Seu IMC e gordura corporal indicam risco elevado à saúde.",
@@ -147,7 +147,7 @@
 
   {
     "sexo": "F",
-    "imc": "abaixo_peso",
+    "imc": "Abaixo do peso",
     "gordura": "baixa",
     "status": "Abaixo do peso e baixa gordura corporal",
     "descricao": "Seu peso e percentual de gordura estão abaixo do recomendado.",
@@ -159,7 +159,7 @@
   },
   {
     "sexo": "F",
-    "imc": "abaixo_peso",
+    "imc": "Abaixo do peso",
     "gordura": "normal",
     "status": "Abaixo do peso, mas saudável",
     "descricao": "Seu percentual de gordura está adequado apesar do baixo peso.",
@@ -170,7 +170,7 @@
   },
   {
     "sexo": "F",
-    "imc": "abaixo_peso",
+    "imc": "Abaixo do peso",
     "gordura": "alta",
     "status": "Baixo peso com gordura elevada",
     "descricao": "Você pode ter pouca massa muscular e gordura corporal elevada.",
@@ -182,7 +182,7 @@
 
   {
     "sexo": "F",
-    "imc": "normal",
+    "imc": "Peso normal",
     "gordura": "baixa",
     "status": "Peso saudável e baixa gordura",
     "descricao": "Seu peso e percentual de gordura estão em boa faixa.",
@@ -193,7 +193,7 @@
   },
   {
     "sexo": "F",
-    "imc": "normal",
+    "imc": "Peso normal",
     "gordura": "normal",
     "status": "Saudável",
     "descricao": "Seu IMC e percentual de gordura estão equilibrados.",
@@ -203,7 +203,7 @@
   },
   {
     "sexo": "F",
-    "imc": "normal",
+    "imc": "Peso normal",
     "gordura": "alta",
     "status": "Peso normal com gordura elevada",
     "descricao": "Mesmo com peso normal, seu percentual de gordura está elevado.",
@@ -216,7 +216,7 @@
 
   {
     "sexo": "F",
-    "imc": "sobrepeso",
+    "imc": "Sobrepeso",
     "gordura": "baixa",
     "status": "Sobrepeso, mas saudável",
     "descricao": "Seu IMC está acima do ideal, mas o percentual de gordura é baixo.",
@@ -227,7 +227,7 @@
   },
   {
     "sexo": "F",
-    "imc": "sobrepeso",
+    "imc": "Sobrepeso",
     "gordura": "normal",
     "status": "Sobrepeso moderado",
     "descricao": "Seu peso está acima da faixa recomendada.",
@@ -238,7 +238,7 @@
   },
   {
     "sexo": "F",
-    "imc": "sobrepeso",
+    "imc": "Sobrepeso",
     "gordura": "alta",
     "status": "Sobrepeso com gordura elevada",
     "descricao": "Seu percentual de gordura está acima do recomendado.",
@@ -251,7 +251,7 @@
 
   {
     "sexo": "F",
-    "imc": "obesidade",
+    "imc": "Obesidade",
     "gordura": "baixa",
     "status": "IMC elevado com baixa gordura",
     "descricao": "Seu IMC está elevado, porém a gordura corporal não acompanha.",
@@ -262,7 +262,7 @@
   },
   {
     "sexo": "F",
-    "imc": "obesidade",
+    "imc": "Obesidade",
     "gordura": "normal",
     "status": "IMC elevado",
     "descricao": "Seu IMC está na faixa de obesidade.",
@@ -273,7 +273,7 @@
   },
   {
     "sexo": "F",
-    "imc": "obesidade",
+    "imc": "Obesidade",
     "gordura": "alta",
     "status": "Obesidade",
     "descricao": "Seu IMC e percentual de gordura indicam risco elevado à saúde.",

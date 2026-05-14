@@ -81,25 +81,28 @@ export function Historico() {
 
           <View style={styles.itemHistorico}>
 
-            <Text style={styles.itemHistorico}>
+            <Text style={styles.HText}>
               Gênero: {item.L_genero}
             </Text>
 
-            <Text style={styles.itemHistorico}>
+            <Text style={styles.HText}>
               IMC: {item.L_imc.toFixed(2)}
             </Text>
 
-            <Text style={styles.itemHistorico}>
+            <Text style={styles.HText}>
               Status: {item.L_status}
             </Text>
+
 
           </View>
         )}
 
         ListEmptyComponent={
-          <Text style={styles.itemHistorico}>
-            Nenhum histórico encontrado
+          <View style={[styles.itemHistorico, { backgroundColor: '#ffffff00' }]}>
+          <Text style={[styles.HText, { fontSize: 20, marginLeft: 10 }]}>
+            Histórico Vazio
           </Text>
+          </View>
           
         }
         

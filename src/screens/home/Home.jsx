@@ -11,6 +11,9 @@ import { useState } from 'react'
 import { styles } from './styles'
 import {
   salvarBanco,
+  lerBase,
+  Search_Base,
+  HandleData
 } from './HandleBD'
 
 
@@ -21,6 +24,8 @@ export default function Home(){
   const [altura, setAltura] = useState('')
   const [gordura, setGordura] = useState('')
   const [resultado, setResultado] = useState('')
+  const [descricao, setDescricao] = useState('')
+  const [recomendacoes, setRecomendacoes] = useState('')
   const [corResultado, setCorResultado] = useState('#fff')
   
 
@@ -91,12 +96,17 @@ export default function Home(){
       }
     }
 
-    setResultado(`IMC: ${imc.toFixed(2)}\n${status}`)
-    Keyboard.dismiss()
+
 
     await salvarBanco(genero, imc, gordura, status)
 
+     let resultBase = HandleData(Search_Base(genero, status, gordura))
+    
+   setResultado(`IMC: ${imc.toFixed(2)}\nStatus: ${status}`)
 
+   setDescricao(`${resultBase.descricao}`)
+   setRecomendacoes(`->${resultBase.recomendacoes.join('\n->')}`)
+    Keyboard.dismiss()
   
   }
 
@@ -141,9 +151,9 @@ export default function Home(){
           onValueChange={(itemValue) => setGordura(itemValue)}
         >
           <Picker.Item label="Selecione..." value="" />
-          <Picker.Item label="Baixa 0%-15%" value="b" />
-          <Picker.Item label="Normal 16%-25%" value="n" />
-          <Picker.Item label="Alta +26%" value="a" />
+          <Picker.Item label="Baixa 0%-15%" value="baixa" />
+          <Picker.Item label="Normal 16%-25%" value="normal" />
+          <Picker.Item label="Alta +26%" value="alta" />
 
         </Picker>
       </View>
@@ -183,11 +193,37 @@ export default function Home(){
 
     </View>
       <View style={styles.boxResult}>
-        <Text style={styles.result}>Resultado:</Text>
+        <Text style={styles.titleText}>Resultado:</Text>
 
         <View style={[styles.boxStatus, { backgroundColor: corResultado }]} />
 
         <Text style={styles.result}>{resultado}</Text>
+
+
+      </View>
+
+      <View style={styles.boxResult}>
+        <Text style={styles.titleText}>Status:</Text>
+
+        
+
+        <Text style={styles.result}>{status}</Text>
+
+
+      </View>
+
+      <View style={styles.boxResult}>
+        <Text style={styles.titleText}>Descrição:</Text>
+
+        <Text style={styles.result}>{descricao}</Text>
+
+
+      </View>
+
+      <View style={styles.boxResult}>
+        <Text style={styles.titleText}>Recomendações:</Text>
+
+        <Text style={styles.result}>{recomendacoes}</Text>
 
 
       </View>
