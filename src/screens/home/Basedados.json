@@ -1,0 +1,287 @@
+{
+"analise": [
+   {
+    "sexo": "M",
+    "imc": "abaixo_peso",
+    "gordura": "baixa",
+    "status": "Abaixo do peso e baixa gordura corporal",
+    "descricao": "Seu peso e percentual de gordura estão abaixo do recomendado.",
+    "recomendacoes": [
+      "Aumentar ingestão calórica",
+      "Consumir mais proteínas",
+      "Buscar acompanhamento nutricional"
+    ]
+  },
+  {
+    "sexo": "M",
+    "imc": "abaixo_peso",
+    "gordura": "normal",
+    "status": "Abaixo do peso, mas saudável",
+    "descricao": "Mesmo abaixo do peso ideal, seu percentual de gordura está equilibrado.",
+    "recomendacoes": [
+      "Ganhar massa muscular",
+      "Manter alimentação equilibrada",
+      "Treinar regularmente"
+    ]
+  },
+  {
+    "sexo": "M",
+    "imc": "abaixo_peso",
+    "gordura": "alta",
+    "status": "Baixo peso com gordura elevada",
+    "descricao": "Você pode ter pouca massa muscular e acúmulo de gordura.",
+    "recomendacoes": [
+      "Praticar musculação",
+      "Melhorar qualidade alimentar",
+      "Consultar nutricionista"
+    ]
+  },
+
+  {
+    "sexo": "M",
+    "imc": "normal",
+    "gordura": "baixa",
+    "status": "Peso normal e baixo percentual de gordura",
+    "descricao": "Seu corpo apresenta baixo percentual de gordura e peso saudável.",
+    "recomendacoes": [
+      "Manter rotina saudável",
+      "Continuar praticando exercícios"
+    ]
+  },
+  {
+    "sexo": "M",
+    "imc": "normal",
+    "gordura": "normal",
+    "status": "Saudável",
+    "descricao": "Seu IMC e percentual de gordura estão dentro da faixa ideal.",
+    "recomendacoes": [
+      "Manter hábitos saudáveis",
+      "Continuar atividade física"
+    ]
+  },
+  {
+    "sexo": "M",
+    "imc": "normal",
+    "gordura": "alta",
+    "status": "Peso normal com gordura elevada",
+    "descricao": "Mesmo com peso normal, seu percentual de gordura está acima do ideal.",
+    "recomendacoes": [
+      "Reduzir ultraprocessados",
+      "Praticar atividade física",
+      "Aumentar massa muscular"
+    ]
+  },
+
+  {
+    "sexo": "M",
+    "imc": "sobrepeso",
+    "gordura": "baixa",
+    "status": "Sobrepeso, mas saudável",
+    "descricao": "Seu IMC está acima do ideal, porém seu percentual de gordura é baixo.",
+    "recomendacoes": [
+      "Manter rotina de treinos",
+      "Acompanhar alimentação",
+      "Continuar hábitos saudáveis"
+    ]
+  },
+  {
+    "sexo": "M",
+    "imc": "sobrepeso",
+    "gordura": "normal",
+    "status": "Sobrepeso moderado",
+    "descricao": "Seu peso está acima do recomendado.",
+    "recomendacoes": [
+      "Controlar alimentação",
+      "Praticar exercícios regularmente",
+      "Monitorar evolução corporal"
+    ]
+  },
+  {
+    "sexo": "M",
+    "imc": "sobrepeso",
+    "gordura": "alta",
+    "status": "Sobrepeso com gordura elevada",
+    "descricao": "Seu IMC e percentual de gordura estão acima do ideal.",
+    "recomendacoes": [
+      "Reduzir calorias",
+      "Praticar atividade física",
+      "Buscar acompanhamento profissional"
+    ]
+  },
+
+  {
+    "sexo": "M",
+    "imc": "obesidade",
+    "gordura": "baixa",
+    "status": "IMC muito elevado com baixa gordura",
+    "descricao": "Seu IMC está muito acima do ideal, mas o percentual de gordura é baixo.",
+    "recomendacoes": [
+      "Avaliar composição corporal com profissional",
+      "Monitorar saúde cardiovascular"
+    ]
+  },
+  {
+    "sexo": "M",
+    "imc": "obesidade",
+    "gordura": "normal",
+    "status": "IMC elevado",
+    "descricao": "Seu IMC está na faixa de obesidade.",
+    "recomendacoes": [
+      "Melhorar alimentação",
+      "Praticar exercícios",
+      "Consultar médico"
+    ]
+  },
+  {
+    "sexo": "M",
+    "imc": "obesidade",
+    "gordura": "alta",
+    "status": "Obesidade",
+    "descricao": "Seu IMC e gordura corporal indicam risco elevado à saúde.",
+    "recomendacoes": [
+      "Buscar acompanhamento médico",
+      "Praticar atividade física gradual",
+      "Melhorar hábitos alimentares"
+    ]
+  },
+
+  {
+    "sexo": "F",
+    "imc": "abaixo_peso",
+    "gordura": "baixa",
+    "status": "Abaixo do peso e baixa gordura corporal",
+    "descricao": "Seu peso e percentual de gordura estão abaixo do recomendado.",
+    "recomendacoes": [
+      "Melhorar ingestão nutricional",
+      "Aumentar proteínas",
+      "Consultar nutricionista"
+    ]
+  },
+  {
+    "sexo": "F",
+    "imc": "abaixo_peso",
+    "gordura": "normal",
+    "status": "Abaixo do peso, mas saudável",
+    "descricao": "Seu percentual de gordura está adequado apesar do baixo peso.",
+    "recomendacoes": [
+      "Ganhar massa muscular",
+      "Manter alimentação saudável"
+    ]
+  },
+  {
+    "sexo": "F",
+    "imc": "abaixo_peso",
+    "gordura": "alta",
+    "status": "Baixo peso com gordura elevada",
+    "descricao": "Você pode ter pouca massa muscular e gordura corporal elevada.",
+    "recomendacoes": [
+      "Praticar musculação",
+      "Melhorar alimentação"
+    ]
+  },
+
+  {
+    "sexo": "F",
+    "imc": "normal",
+    "gordura": "baixa",
+    "status": "Peso saudável e baixa gordura",
+    "descricao": "Seu peso e percentual de gordura estão em boa faixa.",
+    "recomendacoes": [
+      "Manter rotina saudável",
+      "Continuar atividade física"
+    ]
+  },
+  {
+    "sexo": "F",
+    "imc": "normal",
+    "gordura": "normal",
+    "status": "Saudável",
+    "descricao": "Seu IMC e percentual de gordura estão equilibrados.",
+    "recomendacoes": [
+      "Manter hábitos saudáveis"
+    ]
+  },
+  {
+    "sexo": "F",
+    "imc": "normal",
+    "gordura": "alta",
+    "status": "Peso normal com gordura elevada",
+    "descricao": "Mesmo com peso normal, seu percentual de gordura está elevado.",
+    "recomendacoes": [
+      "Praticar exercícios",
+      "Melhorar qualidade alimentar",
+      "Aumentar massa muscular"
+    ]
+  },
+
+  {
+    "sexo": "F",
+    "imc": "sobrepeso",
+    "gordura": "baixa",
+    "status": "Sobrepeso, mas saudável",
+    "descricao": "Seu IMC está acima do ideal, mas o percentual de gordura é baixo.",
+    "recomendacoes": [
+      "Manter exercícios",
+      "Acompanhar evolução corporal"
+    ]
+  },
+  {
+    "sexo": "F",
+    "imc": "sobrepeso",
+    "gordura": "normal",
+    "status": "Sobrepeso moderado",
+    "descricao": "Seu peso está acima da faixa recomendada.",
+    "recomendacoes": [
+      "Melhorar alimentação",
+      "Praticar atividade física"
+    ]
+  },
+  {
+    "sexo": "F",
+    "imc": "sobrepeso",
+    "gordura": "alta",
+    "status": "Sobrepeso com gordura elevada",
+    "descricao": "Seu percentual de gordura está acima do recomendado.",
+    "recomendacoes": [
+      "Reduzir sedentarismo",
+      "Melhorar hábitos alimentares",
+      "Buscar acompanhamento profissional"
+    ]
+  },
+
+  {
+    "sexo": "F",
+    "imc": "obesidade",
+    "gordura": "baixa",
+    "status": "IMC elevado com baixa gordura",
+    "descricao": "Seu IMC está elevado, porém a gordura corporal não acompanha.",
+    "recomendacoes": [
+      "Avaliar composição corporal",
+      "Consultar profissional da saúde"
+    ]
+  },
+  {
+    "sexo": "F",
+    "imc": "obesidade",
+    "gordura": "normal",
+    "status": "IMC elevado",
+    "descricao": "Seu IMC está na faixa de obesidade.",
+    "recomendacoes": [
+      "Melhorar rotina alimentar",
+      "Praticar exercícios"
+    ]
+  },
+  {
+    "sexo": "F",
+    "imc": "obesidade",
+    "gordura": "alta",
+    "status": "Obesidade",
+    "descricao": "Seu IMC e percentual de gordura indicam risco elevado à saúde.",
+    "recomendacoes": [
+      "Buscar acompanhamento médico",
+      "Iniciar atividade física gradual",
+      "Melhorar alimentação"
+    ]
+  }
+
+]}
