@@ -117,6 +117,8 @@ export default function Home(){
     setResultado('')
     setCorResultado('#fff')
     setGordura('')
+    setDescricao('')
+    setRecomendacoes('')
   }
 
   

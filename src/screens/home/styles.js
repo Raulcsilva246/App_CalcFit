@@ -165,7 +165,7 @@ boxStatus: {
 },
 
 boxResult: {
-    margin: 20,
+    margin: 15,
     backgroundColor: '#E6E8E6',
     borderRadius: 6,
 }
