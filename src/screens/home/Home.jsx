@@ -202,15 +202,7 @@ export default function Home(){
 
       </View>
 
-      <View style={styles.boxResult}>
-        <Text style={styles.titleText}>Status:</Text>
 
-        
-
-        <Text style={styles.result}>{status}</Text>
-
-
-      </View>
 
       <View style={styles.boxResult}>
         <Text style={styles.titleText}>Descrição:</Text>
